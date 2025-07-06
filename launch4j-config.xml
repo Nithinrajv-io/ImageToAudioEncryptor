@@ -1,0 +1,19 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>target/ImageToAudioEncryptor-1.0-SNAPSHOT-shaded.jar</jar>
+  <outfile>ImageEncryptor.exe</outfile>
+  <errTitle>Image Encryptor</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.java.com/download/</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <jre>
+    <path>D:\ImageToAudioEncryptor\jlink-image</path>
+    <minVersion>24</minVersion>
+    <bundledJre64Bit>true</bundledJre64Bit>
+  </jre>
+</launch4jConfig>
