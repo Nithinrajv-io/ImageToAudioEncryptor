@@ -5,12 +5,13 @@ A tool that securely converts images into audio files using grayscale mapping an
 
 ---
 
-## 💡 What It Does
+## 💡 What It Does / Features
 
 - Converts an image to `.wav` file
 - Encrypts the image data with AES
 - The `.wav` contains audio of the image data that can be decrypted by only having both the audio and the key.
 - Supports full decryption of the `.wav` file back to image using a unique key generated and given to the user while encrypting
+- A JavaFX GUI for clean and easier use
 
 ---
 
